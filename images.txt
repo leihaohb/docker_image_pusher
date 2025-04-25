@@ -3,6 +3,8 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #redis:alpine
-node:22-slim
+node:18-slim
+rust:1-slim
+golang:1.24
 #支持指定架构
 #--platform=linux/x86
