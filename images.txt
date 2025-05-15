@@ -3,6 +3,6 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #redis:alpine
-rabbitmq:3.7
+guacamole/guacd:1.1.0 --platform=linux/arm64/v8
 #支持指定架构
 #--platform=linux/x86
