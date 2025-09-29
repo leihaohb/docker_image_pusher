@@ -3,7 +3,7 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 #redis:alpine
-bitnami/zookeeper:3.8
-bitnami/kafka:3.6
+#bitnami/zookeeper:3.8
+#bitnami/kafka:3.6
 #支持指定架构
-python3.6 --platform=linux/arm
+centos/python-36-centos7 --platform=linux/arm
