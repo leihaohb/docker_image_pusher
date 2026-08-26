@@ -1,10 +1,4 @@
-#nginx
-#支持私库
-#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-#xhofe/alist:latest
-#redis:alpine
-#bitnami/zookeeper:3.8
-#bitnami/kafka:3.6
-#支持指定架构
-#centos/python-36-centos7 --platform=linux/x86
-ollama/ollama:latest
+nginx:1.27-alpine
+python:3.10.19-slim
+mysql:5.7.14
+redis:5.0
